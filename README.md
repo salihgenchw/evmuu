@@ -7,7 +7,7 @@ Start Date : 03 Jan 23
 ## Used Technologies
 
 <p float="left">
-<image src="https://assets.stickpng.com/images/58482acecef1014c0b5e4a1e.png" alt="Vue" width="100"/>
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/512px-Vue.js_Logo_2.svg.png?20170919082558" alt="Vue" width="100"/>
 
 <image src="https://seeklogo.com/images/V/vuetify-logo-3BCF73C928-seeklogo.com.png" alt="Vuetify" width="100"/>
 
