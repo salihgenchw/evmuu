@@ -6,6 +6,8 @@ import router from "./router";
 
 import "./assets/main.css";
 
+import "@mdi/font/css/materialdesignicons.css"
+
 // Vuetify
 import "vuetify/styles";
 import { createVuetify } from "vuetify";
