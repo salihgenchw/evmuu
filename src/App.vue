@@ -1,17 +1,22 @@
-<script setup lang="ts">
+<script lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import HomeView from "./views/HomeView.vue";
+import SideMenu from "@/components/SideMenu.vue";
+
+export default {
+  name: "App",
+  components: {
+    SideMenu,
+  },
+};
 </script>
 
 <template>
-  <div>
-    <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
-  </div>
-
-  <RouterView />
+  <v-layout>
+    <SideMenu />
+    <v-main>
+      <RouterView />
+    </v-main>
+  </v-layout>
 </template>
 
 <style scoped></style>
