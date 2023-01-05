@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="red-darken-1">
     <div>
-      <h1>CREDİTS SAYFASI</h1>
+      <h1>Credits</h1>
     </div>
   </div>
 </template>

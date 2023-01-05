@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import CreditsView from "../views/CreditsView.vue";
 import IncomesView from "../views/IncomesView.vue";
 import CreditCardsView from "../views/CreditCardsView.vue";
+import SettingsView from "../views/SettingsView.vue";
 import App from "../App.vue";
 
 const router = createRouter({
@@ -35,6 +36,14 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component:CreditCardsView
+    },
+    {
+      path: '/settings',
+      name: 'settings',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component:SettingsView
     }
   ],
 });
